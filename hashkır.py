@@ -36,8 +36,8 @@ ENCODES SERIES:
 EXAMPLES:
 	{} --md5Decode 21232f297a57a5a743894a0e4a801fc3 --password /usr/share/wordlists/rockyou.txt
 	{} --sha1Decode 21232f297a57a5a743894a0e4a801fc3 -p /usr/share/wordlists/rockyou.txt
-	{} --md5Decode admin      ==========> 21232f297a57a5a743894a0e4a801fc3
-	{} --sha256Decode admin   ==========> 8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918
+	{} --md5Encode admin      ==========> 21232f297a57a5a743894a0e4a801fc3
+	{} --sha256Encode admin   ==========> 8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918
 	""".format(sys.argv[0],sys.argv[0],sys.argv[0],sys.argv[0]))
 	sys.exit(1)
 
