@@ -17,15 +17,15 @@ ENCODES SERIES:
 EXAMPLES:
 	hashkır.py --md5Decode 21232f297a57a5a743894a0e4a801fc3 --password rockyou.txt
 	hashkır.py --sha1Decode 21232f297a57a5a743894a0e4a801fc3 -p rockyou.txt
-	hashkır.py --md5Decode admin      ==========> 21232f297a57a5a743894a0e4a801fc3
-	hashkır.py --sha256Decode admin   ==========> 8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918
+	hashkır.py --md5Encode admin      ==========> 21232f297a57a5a743894a0e4a801fc3
+	hashkır.py --sha256Encode admin   ==========> 8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918
 ```
 ======================================================================================
 
 #			Encode etme yolları
 ```EXAMPLES:
-	hashkır.py --md5Decode admin      ==========> 21232f297a57a5a743894a0e4a801fc3
-	hashkır.py --sha256Decode admin   ==========> 8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918
+	hashkır.py --md5Encode admin      ==========> 21232f297a57a5a743894a0e4a801fc3
+	hashkır.py --sha256Encode admin   ==========> 8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918
 ```
 ======================================================================================
 
