@@ -75,7 +75,7 @@ def encodeEt():
 def tryOpen(wordlist):
 	global pass_file
 	try:
-		pass_file = open(wordlist,"r",encoding="utf-8")
+		pass_file = open(wordlist,"r",encoding="latin")
 	except:
 		print("password file not found")
 		sys.exit(0)
